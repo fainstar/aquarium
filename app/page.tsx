@@ -1,4 +1,3 @@
-import Image from "next/image";
 import VideoPlayer from './components/VideoPlayer';
 import TemperatureChart from './components/TemperatureChart';
 import ModeSelector from './components/ModeSelector';

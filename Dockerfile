@@ -47,8 +47,8 @@ USER nextjs
 
 EXPOSE 3000
 
-ENV PORT 3000
-ENV HOSTNAME "0.0.0.0"
+ENV PORT=3000
+ENV HOSTNAME="0.0.0.0"
 
 # 默認使用 standalone 模式啟動應用程序
 CMD ["node", "server.js"]
