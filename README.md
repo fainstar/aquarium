@@ -79,13 +79,13 @@ docker-compose up -d
 如果您想自行修改並構建映像，可以使用：
 
 ```bash
-docker build -t 您的用戶名/aquarium .
+docker build -t oomaybeoo/aquarium .
 ```
 
 構建完成後，推送至 Docker Hub：
 
 ```bash
-docker push 您的用戶名/aquarium
+docker push oomaybeoo/aquarium
 ```
 
 ### Docker 相關文件說明
